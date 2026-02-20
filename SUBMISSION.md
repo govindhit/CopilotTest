@@ -15,11 +15,12 @@ Aksed to create model file separately in models folder.
 ## Key Prompts Used
 <!-- List 3-5 important prompts you used with your AI assistant -->
 
-1. [Example: "Create a RESTful API endpoint for creating ..."]
-2. [Example: "How to implement reactive forms in Angular with ..."]
-3. [Example: "Debug TypeScript error in task service HTTP request"]
-4. 
-5. 
+1. mplement taks management apis with crud operation where appropriate validation and  error handling required.
+This api will store data in-memory instead of any database. Must needs to validate input
+2. implement pagination for get tasks api
+3. input validation should be as middleware instead of inside controller.
+4. integrate Integrate a third-party request logging package winston and add appropriate error or debug or info logs
+5. add one more column named priority which has value like high, low and medium
 
 ## Design Decisions (optional)
 <!-- Explain key architectural or implementation decisions you made and why -->
@@ -72,11 +73,11 @@ Aksed to create model file separately in models folder.
 ## Submission Checklist
 <!-- Verify before submitting -->
 
-- [ ] Code pushed to public GitHub repository
-- [ ] All mandatory requirements completed
-- [ ] Code is tested and functional
-- [ ] README updated (if needed)
-- [ ] This SUBMISSION.md file completed
-- [ ] MS Teams recording completed and shared
-- [ ] GitHub repository URL provided to RM
-- [ ] MS Teams recording link provided to RM
+- [x] Code pushed to public GitHub repository
+- [x] All mandatory requirements completed
+- [x] Code is tested and functional
+- [x] README updated (if needed)
+- [x] This SUBMISSION.md file completed
+- [x] MS Teams recording completed and shared
+- [x] GitHub repository URL provided to RM
+- [x] MS Teams recording link provided to RM
